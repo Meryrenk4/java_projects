@@ -1,6 +1,5 @@
 // This project calculates the VAT price and VAT amount of the value received from the user.
 
-import java.net.SecureCacheResponse;
 import java.util.Scanner;
 
 public class CalculateVAT {
