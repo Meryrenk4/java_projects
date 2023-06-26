@@ -1,5 +1,6 @@
+package BoxingMatch.src;
 
-public class Main {
+public class MainBoxingMatch {
     public static void main(String[] args) {
         // Mark is the first fighter and Alex is the second fighter
         Fighter marc = new Fighter("Marc" , 15 , 100, 100, 0);

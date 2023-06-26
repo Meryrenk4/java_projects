@@ -1,3 +1,5 @@
+package BoxingMatch.src;
+
 /*
     The system that calculates who will start the fight first with 50% probability
     has been integrated into the project.

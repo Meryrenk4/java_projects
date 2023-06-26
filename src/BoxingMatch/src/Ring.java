@@ -1,3 +1,5 @@
+package BoxingMatch.src;
+
 public class Ring {
     Fighter f1;
     Fighter f2;
