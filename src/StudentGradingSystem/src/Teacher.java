@@ -1,3 +1,5 @@
+package StudentGradingSystem.src;
+
 public class Teacher {
     String name;
     String mpno;

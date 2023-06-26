@@ -1,3 +1,5 @@
+package StudentGradingSystem.src;
+
 /*
     Add the oral grade variable to the Course class and specify its effect on the average
     for each course separately. Include the effect of their oral grades on the average as a percentage.

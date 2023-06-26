@@ -1,4 +1,6 @@
-public class Main {
+package StudentGradingSystem.src;
+
+public class MainStudentGradingSystem {
     public static void main(String[] args) {
         Course math = new Course("Mathematics", "MATH101", "MATH", 0.2, 0.8);
         Course physics = new Course("Physics", "PHY101", "PHY", 0.2, 0.8);
