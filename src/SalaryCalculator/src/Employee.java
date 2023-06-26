@@ -1,3 +1,5 @@
+package SalaryCalculator.src;
+
 /*
     This project calculates the salaries of the employees with a class named "Employee"
     which is representing the factory workers. This class have 4 attributes and 5 methods.
@@ -79,21 +81,23 @@ public class Employee {
     // Printing the worker's information
     public String toString() {
         System.out.println("Salary Information: ");
+        String worker;
         double tax = tax();
         double bonus = bonus();
         double increase = raiseSalary();
         double salaryWithBonusAndTax = this.salary - tax + bonus;
         double totalSalary = salaryWithBonusAndTax + increase;
 
-        String worker = "Worker's name and surname : " + this.name + "\n"
-                      + "Worker's raw salary : " + this.salary + "\n"
-                      + "Worker's weekly working hours : " + this.workHours + "\n"
-                      + "Worker's year of hire : " + this.hireYear + "\n"
-                      + "Tax : " + tax + "\n"
-                      + "Bonus : " + bonus + "\n"
-                      + "Salary increase : " + increase + "\n"
-                      + "Salary with tax and bonus : " + salaryWithBonusAndTax + "\n"
-                      + "Total Salary : " + totalSalary;
+        worker = "Worker's name and surname : " + this.name + "\n"
+               + "Worker's raw salary : " + this.salary + "\n"
+               + "Worker's weekly working hours : " + this.workHours + "\n"
+               + "Worker's year of hire : " + this.hireYear + "\n"
+               + "Tax : " + tax + "\n"
+               + "Bonus : " + bonus + "\n"
+               + "Salary increase : " + increase + "\n"
+               + "Salary with tax and bonus : " + salaryWithBonusAndTax + "\n"
+               + "Total Salary : " + totalSalary;
+
         return worker;
     }
 }

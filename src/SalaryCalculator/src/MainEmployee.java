@@ -1,4 +1,6 @@
-public class Main {
+package SalaryCalculator.src;
+
+public class MainEmployee {
     public static void main(String[] args) {
         // Create an Employee object
         Employee emp = new Employee("factory worker", 1200.0, 45, 1999);
