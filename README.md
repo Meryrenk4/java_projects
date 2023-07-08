@@ -1,1 +1,1 @@
-Patika.dev projects located Java101 path.
+Patika.dev projects located Java101 and Java102 paths.
